@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const ProductsPage = () => {
   return (
@@ -6,7 +6,9 @@ const ProductsPage = () => {
       <h1>My Products Page</h1>
 
       <ul>
-        <li>Product 1</li>
+        <li>
+          <Link to={"id"}>Product 1</Link>
+        </li>
         <li>Product 2</li>
         <li>Product 3</li>
       </ul>
