@@ -6,7 +6,7 @@ import ProductsPage from "./pages/Products";
 import RootLayout from "./pages/Root";
 import ErrorPage from "./pages/Error";
 
-//Routing:
+//Router:
 const router = createBrowserRouter([
   {
     path: "/",

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
 
 const MainNavigation = () => {
-  // active link
+  // active link:
   const active = ({ isActive }) => (isActive ? classes.active : undefined);
 
   return (
