@@ -1,0 +1,1 @@
+import React from 'react';import {Link, useParams} from "react-router-dom";const EventDetailPage = () => {  // params:  const {eventId}  = useParams();  return (      <div>        <h1>EventDetailPage</h1>        <h2>Event ID: {eventId}</h2>        <p><Link to={'..'} relative={'path'}>Back</Link> </p>      </div>  );};export default EventDetailPage;
