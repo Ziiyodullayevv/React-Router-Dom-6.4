@@ -1,1 +1,15 @@
-import React from 'react';import {Link} from "react-router-dom";const DUMMY_EVENTS = [     {id: 'e1', title: 'Akobir'},     {id: 'e2', title: 'Adiba'},     {id: 'e3', title: 'Aqida'},     {id: 'e4', title: 'Anvar'}];const EventsPage = () => {  return <div>    <h1>EventsPage</h1>    <ul>      {DUMMY_EVENTS.map(({id, title}) =>          <li><Link to={id}>{title}</Link></li>)}    </ul>  </div>;};export default EventsPage;
+import EventsList from "../components/EventsList";
+import { useLoaderData } from "react-router-dom";
+
+function EventsPage() {
+  //events apidan malumot olib kelish uchun:
+  const events = useLoaderData();
+
+  return (
+    <>
+      <EventsList events={events} />
+    </>
+  );
+}
+
+export default EventsPage;
