@@ -3,15 +3,15 @@ import { useRouteError } from "react-router-dom";
 import MainNavigation from "../components/MainNavigation";
 
 const ErrorPage = () => {
-  const error = useRouteError();
+  const { status, data } = useRouteError();
   let title = "An error occurred";
   let message = "Something went wrong!";
 
-  if (error.status === 500) {
-    message = JSON.parse(error.data).message;
+  if (status === 500) {
+    message = data.message;
   }
 
-  if (error.status === 404) {
+  if (status === 404) {
     title = "Page Not Found";
     message = "Could not find Page";
   }
