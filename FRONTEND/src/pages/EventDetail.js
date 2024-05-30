@@ -21,8 +21,8 @@ export const loader = async ({ request, params }) => {
 
   if (!response.ok) {
     throw json(
-      { message: "Could not fetch details for selected event" },
-      { status: 500 },
+        { message: "Could not fetch details for selected event" },
+        { status: 500 },
     );
   } else {
     return response;
