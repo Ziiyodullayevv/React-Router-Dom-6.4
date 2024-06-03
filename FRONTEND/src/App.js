@@ -1,18 +1,18 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-//import pages:
-import HomePage from "./pages/Home";
-import EventsPage, { loader as eventsLoader } from "./pages/Events";
+import EditEventPage from "./pages/EditEvent";
+import ErrorPage from "./pages/Error";
 import EventDetailPage, {
   loader as eventDetailLoader,
-  action as eventDetailAction,
+  action as deleteEventAction,
 } from "./pages/EventDetail";
-import NewEventPage from "./pages/NewEvent";
-import EditEvent from "./pages/EditEvent";
-import RootLayout from "./pages/Root";
+import EventsPage, { loader as eventsLoader } from "./pages/Events";
 import EventsRootLayout from "./pages/EventsRoot";
-import ErrorPage from "./pages/Error";
-import { action as manipulateAction } from "./components/EventForm";
+import HomePage from "./pages/Home";
+import NewEventPage from "./pages/NewEvent";
+import RootLayout from "./pages/Root";
+import { action as manipulateEventAction } from "./components/EventForm";
+import NewsletterPage, { action as newsletterAction } from "./pages/Newsletter";
 
 const router = createBrowserRouter([
   {
@@ -38,24 +38,33 @@ const router = createBrowserRouter([
               {
                 index: true,
                 element: <EventDetailPage />,
-                action: eventDetailAction,
+                action: deleteEventAction,
               },
               {
                 path: "edit",
-                element: <EditEvent />,
-                action: manipulateAction,
+                element: <EditEventPage />,
+                action: manipulateEventAction,
               },
             ],
           },
-          { path: "new", element: <NewEventPage />, action: manipulateAction },
+          {
+            path: "new",
+            element: <NewEventPage />,
+            action: manipulateEventAction,
+          },
         ],
+      },
+      {
+        path: "newsletter",
+        element: <NewsletterPage />,
+        action: newsletterAction,
       },
     ],
   },
 ]);
 
-function App() {
+const App = () => {
   return <RouterProvider router={router} />;
-}
+};
 
 export default App;

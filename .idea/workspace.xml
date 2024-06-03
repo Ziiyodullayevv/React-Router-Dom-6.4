@@ -5,28 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bc834e2-332b-4b30-9857-857668841ff2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FRONTEND/src/components/NewsletterSignup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FRONTEND/src/components/NewsletterSignup.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FRONTEND/src/pages/Newsletter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BACKEND/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/events.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/1.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/12.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/12.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/11.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/14.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/14.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/15.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/15.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/16.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/16.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/17.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/17.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/19.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/19.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/3.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/8.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONTEND/src/components/EventForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/src/components/EventForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONTEND/src/pages/EditEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/src/pages/EditEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONTEND/src/pages/EventDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/src/pages/EventDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONTEND/src/pages/NewEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/src/pages/NewEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/src/components/MainNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/src/components/MainNavigation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Hp/OneDrive/Desktop/RRD",
+    "last_opened_file_path": "C:/Users/Hp/OneDrive/Desktop/react-router",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,7 +79,7 @@
     "nodejs_package_manager_path": "npm",
     "npm.React Buddy Preview.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Hp\\OneDrive\\Desktop\\RRD\\FRONTEND\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -140,7 +141,8 @@
       <workItem from="1716611777506" duration="10388000" />
       <workItem from="1716659131381" duration="10080000" />
       <workItem from="1716723274974" duration="70000" />
-      <workItem from="1717043097279" duration="5716000" />
+      <workItem from="1717043097279" duration="8016000" />
+      <workItem from="1717421130733" duration="2331000" />
     </task>
     <servers />
   </component>
