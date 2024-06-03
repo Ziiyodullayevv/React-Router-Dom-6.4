@@ -6,11 +6,9 @@ function EventsPage() {
   //events apidan malumot olib kelish uchun:
   const data = useLoaderData();
   const { events } = data;
-
   return (
     <Suspense fallback={<p style={{ textAlign: "center" }}>Loading...</p>}>
       <Await resolve={events}>
-        <EventsList events={events} />
         {(loadedEvents) => <EventsList events={loadedEvents} />}
       </Await>
     </Suspense>
@@ -20,7 +18,7 @@ function EventsPage() {
 export default EventsPage;
 
 // EventsPage loader:
-export const loadEvents = async () => {
+async function loadEvents() {
   const response = await fetch("http://localhost:8080/events");
 
   if (!response.ok) {
@@ -32,8 +30,8 @@ export const loadEvents = async () => {
     const resData = await response.json();
     return resData.events;
   }
-};
+}
 
-export const loader = () => {
+export function loader() {
   return defer({ events: loadEvents() });
-};
+}

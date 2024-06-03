@@ -6,12 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="8bc834e2-332b-4b30-9857-857668841ff2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BACKEND/routes/events.js" beforeDir="false" afterPath="$PROJECT_DIR$/BACKEND/routes/events.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/11.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/11.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/2.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/5.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/5.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/src/components/EventsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/src/components/EventsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONTEND/src/pages/EventDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/src/pages/EventDetail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONTEND/src/pages/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/FRONTEND/src/pages/Events.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +139,7 @@
       <workItem from="1716659131381" duration="10080000" />
       <workItem from="1716723274974" duration="70000" />
       <workItem from="1717043097279" duration="8016000" />
-      <workItem from="1717421130733" duration="3694000" />
+      <workItem from="1717421130733" duration="10882000" />
     </task>
     <servers />
   </component>
